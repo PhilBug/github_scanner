@@ -1,0 +1,6 @@
+creds:
+    login: test1
+    password: test2
+users:
+    - user1
+    - user2
