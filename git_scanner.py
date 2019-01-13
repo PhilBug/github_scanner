@@ -20,6 +20,8 @@ class Repository:
         self.last_update = last_update.replace('T', ' ').replace('Z', '')
         if language != None:
             self.language = language.lower()
+        else:
+            self.language = 'unknown'
 
 class Scanner:
     def __init__(self):
